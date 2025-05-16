@@ -1,0 +1,17 @@
+.feedbackContainer {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  padding-inline-start: 0; 
+  align-self: flex-start;
+}
+
