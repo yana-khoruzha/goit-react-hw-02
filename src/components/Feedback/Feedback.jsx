@@ -1,6 +1,6 @@
 import styles from './Feedback.module.css';
 
-export default function Feedback({ options, totalFeedback }) {
+export default function Feedback({ options, totalFeedback, positiveFeedback}) {
   return (
     <div className={styles.feedbackContainer}>
       <ul className={styles.list}>
@@ -10,7 +10,7 @@ export default function Feedback({ options, totalFeedback }) {
           </li>
         ))}
         <li>Total: {totalFeedback}</li>
-        <li>Positive: {Math.round((options.good / totalFeedback) * 100)}%</li>
+        <li>Positive: {positiveFeedback}%</li>
       </ul>
     </div>
   );
